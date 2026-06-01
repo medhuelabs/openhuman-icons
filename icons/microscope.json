@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["devices", "diagnostics"],
+  "tags": ["microscope", "laboratory", "research", "pathology"],
+  "use-cases": ["laboratory testing"]
+}

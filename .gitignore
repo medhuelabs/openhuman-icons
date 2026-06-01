@@ -1,0 +1,25 @@
+.DS_Store
+.vercel
+coverage
+dist
+node_modules
+stats
+tmp
+*.log
+
+# Generated package source
+packages/openhuman-icons/src/icons
+packages/openhuman-icons/src/iconNodes.ts
+packages/openhuman-icons/src/iconMetadata.ts
+packages/openhuman-icons/src/aliases.ts
+packages/openhuman-icons-react/src/icons
+packages/openhuman-icons-react/src/aliases.ts
+packages/**/LICENSE
+
+# Generated docs data and routes
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/data/*.generated.json
+docs/.vitepress/.temp
+docs/icons/*.md
+!docs/icons/index.md

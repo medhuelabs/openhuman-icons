@@ -1,0 +1,8 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "temperature" }],
+  "contributors": ["medhuelabs"],
+  "categories": ["diagnostics", "devices", "wellness"],
+  "tags": ["thermometer", "temperature", "fever", "vitals"],
+  "use-cases": ["temperature measurement"]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["devices", "procedures", "wellness"],
+  "tags": ["bandage", "wound", "dressing", "first aid"],
+  "use-cases": ["wound care"]
+}

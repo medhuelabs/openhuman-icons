@@ -1,0 +1,8 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "medical-kit" }],
+  "contributors": ["medhuelabs"],
+  "categories": ["devices", "wellness"],
+  "tags": ["first aid", "medical kit", "emergency", "care"],
+  "use-cases": ["emergency supplies"]
+}

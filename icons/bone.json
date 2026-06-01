@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "specialties"],
+  "tags": ["bone", "skeletal", "orthopedics", "fracture"],
+  "use-cases": ["skeletal anatomy"]
+}

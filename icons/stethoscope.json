@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["diagnostics", "devices", "specialties"],
+  "tags": ["stethoscope", "examination", "auscultation", "doctor"],
+  "use-cases": ["clinical examination"]
+}

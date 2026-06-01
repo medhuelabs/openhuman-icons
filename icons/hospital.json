@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["specialties"],
+  "tags": ["hospital", "clinic", "healthcare", "building"],
+  "use-cases": ["care locations"]
+}

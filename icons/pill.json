@@ -1,0 +1,8 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "capsule" }],
+  "contributors": ["medhuelabs"],
+  "categories": ["medications"],
+  "tags": ["pill", "capsule", "medication", "pharmacy"],
+  "use-cases": ["medication management"]
+}

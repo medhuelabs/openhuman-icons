@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Specialties",
+  "description": "Clinical specialties and departments.",
+  "icon": "hospital",
+  "weight": 60
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Devices",
+  "description": "Medical equipment and clinical tools.",
+  "icon": "microscope",
+  "weight": 30
+}

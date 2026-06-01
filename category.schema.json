@@ -1,0 +1,15 @@
+{
+  "$id": "https://icons.openhumanatlas.com/category.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenHuman Icons category schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "icon", "title"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "description": { "type": "string" },
+    "icon": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "title": { "type": "string" },
+    "weight": { "type": "integer" }
+  }
+}

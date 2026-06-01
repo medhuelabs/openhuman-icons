@@ -1,0 +1,8 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "electrocardiogram" }],
+  "contributors": ["medhuelabs"],
+  "categories": ["diagnostics", "specialties"],
+  "tags": ["ecg", "ekg", "heartbeat", "cardiology", "waveform"],
+  "use-cases": ["cardiac monitoring"]
+}

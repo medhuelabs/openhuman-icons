@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "diagnostics"],
+  "tags": ["dna", "genetics", "genome", "laboratory"],
+  "use-cases": ["genetic testing"]
+}

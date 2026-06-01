@@ -1,0 +1,47 @@
+{
+  "name": "@medhuelabs/openhuman-icons",
+  "version": "0.1.0",
+  "description": "Framework-agnostic medical SVG icon data from OpenHuman Icons.",
+  "license": "ISC",
+  "homepage": "https://icons.openhumanatlas.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medhuelabs/openhuman-icons.git",
+    "directory": "packages/openhuman-icons"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./build": {
+      "types": "./dist/build.d.ts",
+      "import": "./dist/build.js",
+      "require": "./dist/build.cjs"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js",
+      "require": "./dist/icons/*.cjs"
+    },
+    "./svg/*": "./dist/svg/*.svg",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "test": "vitest run ../../tests/base-package.test.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
+}

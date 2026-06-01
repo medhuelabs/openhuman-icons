@@ -1,0 +1,40 @@
+{
+  "name": "openhuman-icons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=24.11.1"
+  },
+  "scripts": {
+    "build": "pnpm generate && pnpm --filter @medhuelabs/openhuman-icons build && pnpm --filter @medhuelabs/openhuman-icons-react build",
+    "check:icons": "node ./scripts/check-icons.mjs",
+    "docs:build": "pnpm generate && pnpm --filter @medhuelabs/openhuman-icons-docs docs:build",
+    "docs:dev": "pnpm generate && pnpm --filter @medhuelabs/openhuman-icons-docs docs:dev",
+    "docs:preview": "pnpm --filter @medhuelabs/openhuman-icons-docs docs:preview",
+    "format": "prettier --write .",
+    "generate": "node ./tools/build-icons/cli.mjs",
+    "lint": "pnpm check:icons && prettier --check .",
+    "optimize": "node ./scripts/optimize-svgs.mjs",
+    "test": "pnpm generate && vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "ajv": "^8.17.1",
+    "prettier": "^3.6.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "svgson": "^5.3.1",
+    "svgo": "^4.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.2.4",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.0.12",
+    "vue": "^3.5.24"
+  }
+}

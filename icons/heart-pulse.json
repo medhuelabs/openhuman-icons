@@ -1,0 +1,8 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "cardiac-pulse" }],
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "diagnostics", "specialties"],
+  "tags": ["heartbeat", "pulse", "cardiac", "diagnostics"],
+  "use-cases": ["patient monitoring"]
+}

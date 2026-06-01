@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Anatomy",
+  "description": "Human structures and body systems.",
+  "icon": "heart",
+  "weight": 10
+}

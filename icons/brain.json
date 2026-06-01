@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "specialties"],
+  "tags": ["brain", "neurology", "nervous system", "cognition"],
+  "use-cases": ["neurological care"]
+}

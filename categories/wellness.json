@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Wellness",
+  "description": "General health, prevention, and wellbeing.",
+  "icon": "first-aid-kit",
+  "weight": 70
+}

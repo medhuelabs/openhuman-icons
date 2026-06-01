@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Medications",
+  "description": "Medication, dosing, and administration.",
+  "icon": "pill",
+  "weight": 40
+}

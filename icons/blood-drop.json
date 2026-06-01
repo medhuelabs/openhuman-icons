@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "diagnostics"],
+  "tags": ["blood", "drop", "hematology", "sample"],
+  "use-cases": ["blood testing"]
+}

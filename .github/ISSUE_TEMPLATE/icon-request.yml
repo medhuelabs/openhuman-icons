@@ -1,0 +1,25 @@
+name: Icon request
+description: Request a medical icon for OpenHuman Icons.
+title: "[Icon request]: "
+labels:
+  - icon-request
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed icon name
+      placeholder: heart-pulse
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Medical use case
+      description: Explain where the icon would be used.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Add links or sketches that clarify the concept.

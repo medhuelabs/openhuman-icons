@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["diagnostics", "devices"],
+  "tags": ["blood pressure", "cuff", "vitals", "monitoring"],
+  "use-cases": ["vital signs"]
+}

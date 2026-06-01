@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Procedures",
+  "description": "Treatment, care, and clinical procedures.",
+  "icon": "syringe",
+  "weight": 50
+}

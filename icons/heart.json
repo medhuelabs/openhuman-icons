@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "specialties", "wellness"],
+  "tags": ["heart", "cardiology", "cardiac", "health"],
+  "use-cases": ["cardiac care"]
+}

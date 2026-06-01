@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["anatomy", "specialties"],
+  "tags": ["lungs", "respiratory", "pulmonology", "breathing"],
+  "use-cases": ["respiratory care"]
+}

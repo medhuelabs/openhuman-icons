@@ -1,0 +1,7 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": ["medhuelabs"],
+  "categories": ["diagnostics", "devices", "specialties"],
+  "tags": ["heart", "monitor", "ecg", "cardiology", "screen"],
+  "use-cases": ["patient monitoring"]
+}

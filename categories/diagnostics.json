@@ -1,0 +1,7 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "Diagnostics",
+  "description": "Examination, measurement, and monitoring.",
+  "icon": "stethoscope",
+  "weight": 20
+}
