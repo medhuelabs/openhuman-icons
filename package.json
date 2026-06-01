@@ -5,7 +5,7 @@
   "type": "module",
   "packageManager": "pnpm@10.28.2",
   "engines": {
-    "node": ">=24.11.1"
+    "node": "24.x"
   },
   "scripts": {
     "build": "pnpm generate && pnpm --filter @medhuelabs/openhuman-icons build && pnpm --filter @medhuelabs/openhuman-icons-react build",
