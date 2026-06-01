@@ -20,7 +20,7 @@
     "test": "pnpm generate && vitest run"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^25.9.1",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-vue": "^6.0.0",
