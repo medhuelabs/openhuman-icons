@@ -39,8 +39,8 @@
     "@medhuelabs/openhuman-icons": "workspace:*"
   },
   "devDependencies": {
-    "@types/react": "^19.0.0",
-    "react": "^19.0.0",
+    "@types/react": "^19.2.16",
+    "react": "^19.2.7",
     "tsup": "^8.5.0"
   },
   "peerDependencies": {
